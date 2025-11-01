@@ -1,25 +1,25 @@
-# 🧠 Stress Detection from Social Media Posts
+# Stress Detection from Social Media Posts
 
 This project uses Natural Language Processing (NLP) and Machine Learning to detect whether a social media post expresses **stress** or **non-stress** emotions.
 
-## 🚀 Features
+## Features
 - Text preprocessing using NLTK (tokenization, stopword removal, etc.)
 - TF-IDF feature extraction
 - Logistic Regression classifier
-- Streamlit web app for live predictions
+- Streamlit web app for real-time predictions
 
-## 🧩 Model Performance
+## Model Performance
 **Accuracy:** 86.8%  
 **Precision (Stress):** 0.86  
 **Recall (Stress):** 0.92
 
-## 🧠 Example
+## Example
 | Input Text | Prediction |
 |-------------|-------------|
-| "Feeling overwhelmed with exams" | 🚨 Stress |
-| "Just finished a workout, feeling great!" | 😊 Non-Stress |
+| "Feeling overwhelmed with exams" | Stress |
+| "Just finished a workout, feeling great!" | Non-Stress |
 
-## 🧰 How to Run Locally
+## How to Run Locally
 ```bash
 git clone https://github.com/Ameena-Jasmin/stress-detection-from-social-media.git
 cd stress-detection-from-social-media
